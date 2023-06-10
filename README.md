@@ -21,9 +21,9 @@ Composite data of a business organisation, confined to ‘sales and delivery’ 
 8.	Retrieve month-by-month customer retention rate since the start of the business.(using views)
 
 **Tips:**
-#1: Create a view where each user’s visits are logged by month, allowing for the possibility that these will have occurred over multiple # years since whenever business started operations
+#1: Create a view where each user’s visits are logged by month, allowing for the possibility that these will have occurred over multiple years since whenever business started operations.
 #2: Identify the time lapse between each visit. So, for each person and for each month, we see when the next visit is.
-#3: Calculate the time gaps between visits
-#4: categorise the customer with time gap 1 as retained, >1 as irregular and NULL as churned
-#5: calculate the retention monthwise
+#3: Calculate the time gaps between visits.
+#4: categorise the customer with time gap 1 as retained, >1 as irregular and NULL as churned.
+#5: calculate the retention monthwise.
   
